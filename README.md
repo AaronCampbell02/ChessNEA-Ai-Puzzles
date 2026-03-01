@@ -7,13 +7,11 @@ CSV file can be found here - https://database.lichess.org/#puzzles
 
 The database is designed as followed:
 
-    Two tables -  user details and puzzleattempts table
+Two tables -  userdetails and puzzleattempts table (spelling exact)
 
-    userdetails contains - UserName, UserPassword, UserGames, UserWins, userID (userID as a primary key)
-    <img width="262" height="136" alt="image" src="https://github.com/user-attachments/assets/a004856a-e0e9-4e03-b183-c7a63c2c0f28" />
+userdetails contains - UserName, UserPassword, UserGames, UserWins, userID (userID as a primary key)
 
-    puzzle attempts contains columns - userID, puzzles, successfulPuzzles and userElo (userID being a foreign key)
-    <img width="169" height="158" alt="image" src="https://github.com/user-attachments/assets/0cfdb9ce-f587-461b-a6d1-ffec9f731e54" />
+puzzle attempts contains columns - userID, puzzles, successfulPuzzles and userElo (userID being a foreign key)
 
 Links included below show the application working with various tests:
 
