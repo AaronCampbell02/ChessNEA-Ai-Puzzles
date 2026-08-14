@@ -1,21 +1,22 @@
-This project was my A level NEA project, it includes a chess AI with 3 difficulty levels, a puzzles gamemode, where the user can develop there skill over time and test themselves with increasingly difficult puzzles. In addition, this project also includes a two player chess gamemode,
-Users have there progress saved by logging into the account.
+Chess NEA — AI & Puzzles
 
-This project will not work when run directly as two files could not be correctly upload due to there size - (database and csv file containing puzzles)
+This project was my A-Level NEA project. It's a chess application featuring:
 
-CSV file can be found here - https://database.lichess.org/#puzzles
+A chess AI with 3 difficulty levels
+A puzzles gamemode, where the user can develop their skill over time and test themselves with increasingly difficult puzzles
+A two-player chess gamemode
+User accounts, with progress saved by logging in
 
-The database is designed as followed:
+This project will not run directly out of the box — two files (the database and the CSV file containing puzzles) were too large to upload.
 
-Two tables -  userdetails and puzzleattempts table (spelling exact)
+Puzzle CSV: download from Lichess https://database.lichess.org/#puzzles
+Database: not included — see schema below to recreate it
 
-userdetails contains - UserName, UserPassword, UserGames, UserWins, userID (userID as a primary key)
+<img width="606" height="537" alt="image" src="https://github.com/user-attachments/assets/009af14f-d38c-4cbc-aac4-717010c4da64" />
 
-puzzle attempts contains columns - userID, puzzles, successfulPuzzles and userElo (userID being a foreign key)
 
-Links included below show the application working with various tests:
-
-AI test - https://youtu.be/p7VXOTYky7s
-Accessibility options - https://youtu.be/yFvc2gfsJSE
-Puzzles gamemode - https://youtu.be/alzbadPW3Uk
-stack to undo and redo moves - https://youtu.be/Q-NvW8QVgXs
+Demo Videos:
+  AI test - https://youtu.be/p7VXOTYky7s
+  Accessibility options - https://youtu.be/yFvc2gfsJSE
+  Puzzles gamemode - https://youtu.be/alzbadPW3Uk
+  stack to undo and redo moves - https://youtu.be/Q-NvW8QVgXs
